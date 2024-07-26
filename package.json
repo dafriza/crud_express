@@ -1,0 +1,35 @@
+{
+	"name": "trial-backend",
+	"version": "1.0.0",
+	"description": "trial-backend-bukitvista",
+	"main": "app.mjs",
+	"scripts": {
+		"start:dev": "nodemon ./app.mjs",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dafriza/trial-backend.git"
+	},
+	"author": "dafriza",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/dafriza/trial-backend/issues"
+	},
+	"homepage": "https://github.com/dafriza/trial-backend#readme",
+	"dependencies": {
+		"@automapper/classes": "^8.8.1",
+		"@automapper/core": "^8.8.1",
+		"@automapper/sequelize": "^8.8.1",
+		"celebrate": "^15.0.3",
+		"dotenv": "^16.4.5",
+		"express": "^4.19.2",
+		"inversify": "^6.0.2",
+		"inversify-express-utils": "^6.4.6",
+		"mysql2": "^3.10.2",
+		"nodemon": "^3.1.4",
+		"reflect-metadata": "^0.1.14",
+		"sequelize": "^6.37.3"
+	},
+	"type": "module"
+}
